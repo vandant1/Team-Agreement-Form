@@ -281,29 +281,23 @@ col1, col2 = st.columns([2, 1])
 with col1:
     # Agreement Statement
     st.markdown("""
-    <div class="agreement-card">
-        <div class="agreement-title">
-            📜 Agreement Statement
-        </div>
-        <div class="agreement-content">
-            <p><strong>We, the undersigned, hereby declare that we have mutually discussed, agreed upon, and accepted the above-mentioned project idea for our final year engineering major project.</strong></p>
-            
-            <p><strong>We further confirm that:</strong></p>
-            
-            <ul>
-                <li>We have no objection whatsoever to the project idea, its development process, methodology, or final outcomes.</li>
-                <li>We mutually agree to contribute sincerely and collaboratively towards the successful execution and submission of the project.</li>
-                <li>In the event of any technical, operational, or other challenges, all matters will be resolved amicably and collectively, without blaming any individual or member.</li>
-                <li>We accept that the success or failure of the project is a shared responsibility, and no member shall hold another solely responsible for the outcome.</li>
-            </ul>
-            
-            <p><strong>This agreement is made in good faith, with the purpose of ensuring harmony, clarity, and professional conduct within the team throughout the project lifecycle.</strong></p>
-            
-            <p style="background: #f7fafc; padding: 1rem; border-radius: 8px; margin-top: 1rem;">
-                <strong>Note:</strong> This agreement is binding upon all members until the successful completion, submission, and acceptance of the final project by the institution.
-            </p>
-        </div>
-    </div>
+    Agreement Statement
+
+We, the undersigned, hereby declare that we have mutually discussed, agreed upon, and accepted the "Smart Mirror" project idea for our final year engineering major project.
+
+We further confirm that:
+
+We have no objection whatsoever to the project idea, its development process, methodology, or final outcomes.
+
+We mutually agree to contribute sincerely and collaboratively towards the successful execution and submission of the project.
+
+In the event of any technical, operational, or other challenges, all matters will be resolved amicably and collectively, without blaming any individual or member.
+
+We accept that the success or failure of the project is a shared responsibility, and no member shall hold another solely responsible for the outcome.
+
+This agreement is made in good faith, with the purpose of ensuring harmony, clarity, and professional conduct within the team throughout the project lifecycle.
+
+Note: This agreement is binding upon all members until the successful completion, submission, and acceptance of the final project by the institution.
     """, unsafe_allow_html=True)
     
     # Team Member Details Form
