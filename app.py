@@ -337,9 +337,7 @@ Note: This agreement is binding upon all members until the successful completion
         
         with col3_form:
             role = st.selectbox("Project Role *", [
-                "", "Team Lead", "Frontend Developer", "Backend Developer",
-                "Full Stack Developer", "UI/UX Designer", "Data Analyst",
-                "Researcher", "Quality Assurance", "Documentation Specialist"
+                "", "Team Lead", "Data pipeline setup and Raspberry pi Config", "Backend Developer and Machine Learning Algorithm", "Data Analyst and Researcher", "Documentation Specialist"
             ])
         
         with col4_form:
